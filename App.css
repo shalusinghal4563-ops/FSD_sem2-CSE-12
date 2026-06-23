@@ -1,12 +1,19 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #e6e6e6;
+  background: #f2f2f2;
 }
 
 .app {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.container {
+  width: 400px;
+  margin: 20px auto;
 }
